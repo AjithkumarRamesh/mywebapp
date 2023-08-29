@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17
+copy target/marvelapp.jar marvelapp.jar
+CMD [ "java","-jar","marvelapp.jar" ]
